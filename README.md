@@ -1,7 +1,7 @@
 # 前言
 这是一个用于生成[u8g2](https://github.com/olikraus/u8g2)字体源代码的一键懒人脚本工具。
 
-在[u8g2的官方字体文件](https://github.com/olikraus/u8g2/wiki/fntlistall)已经提供了大量的英文字体和部分由[larryli](https://github.com/larryli)所提供的部分文泉驿字体。但是在我做一个EPS32驱动的墨水屏设备的小项目中，发现现有的[文泉驿字体](https://github.com/olikraus/u8g2/wiki/fntgrpwqy)中只提供了最高16点阵的中文字体，无法满足我的需求。所以就开始尝试动手自己制作u8g2中文字体，然后就随手撸了这么个懒人工具出来。
+在[u8g2的官方字体文件](https://github.com/olikraus/u8g2/wiki/fntlistall)已经提供了大量的英文字体和部分由[larryli](https://github.com/larryli)所提供的部分文泉驿字体。但是在我做一个EPS32驱动的墨水屏设备的小项目中需要使用到[U8g2 for Adafruit GFX](https://github.com/olikraus/U8g2_for_Adafruit_GFX)，但是发现u8g2现有的[文泉驿字体](https://github.com/olikraus/u8g2/wiki/fntgrpwqy)中只提供了最高16点阵的中文字体，无法满足我的需求。所以就开始尝试动手自己制作u8g2中文字体，然后就随手撸了这么个懒人工具出来。
 
 # 参考
 - [u8g2关于中文字体的issue](https://github.com/olikraus/u8g2/issues/710)
